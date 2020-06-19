@@ -15,7 +15,7 @@ mkdir -vp ~/git/hub/52ForPeerReview
 ```
 
 
-Fork the [GitHub Pages Template][repository__template] to a repository with your Account name to this Organization.
+Use the [GitHub Pages Template][repository__template] to generate a new repository named after your Account name within this Organization, eg. _`52ForPeerReview/S0AndS0`_
 
 
 Then clone your fork, the URL syntax is _`git@github.com:52ForPeerReview/<account>.git`_ eg...
@@ -111,4 +111,4 @@ Published a new awesome new #coding project that does something...
 
 
 
-[repository__template]: https://github.com/organizations/52ForPeerReview/gh-pages-template/fork
+[repository__template]: https://github.com/52ForPeerReview/gh-pages-template/generate
