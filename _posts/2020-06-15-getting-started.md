@@ -1,0 +1,114 @@
+---
+layout: post
+title:  "Getting Started"
+date:   2020-06-15 18:09:28 -0700
+categories: introduction
+---
+
+
+
+Make a directory for organizing repositories from this Organization...
+
+
+```bash
+mkdir -vp ~/git/hub/52ForPeerReview
+```
+
+
+Fork the [GitHub Pages Template][repository__template] to a repository with your Account name to this Organization.
+
+
+Then clone your fork, the URL syntax is _`git@github.com:52ForPeerReview/<account>.git`_ eg...
+
+
+```bash
+cd ~/git/hub/52ForPeerReview
+
+git clone git@github.com:52ForPeerReview/<account>.git
+```
+
+
+Edit the `_config.yml` file, specifically the `title`, `baseurl`, and `description` properties...
+
+
+**`_config.yml` (snip)**
+
+
+```yaml
+title: 52 For Peer Review
+description: >- # this means to ignore newlines until "baseurl:"
+  Challenge to publish one project per weak for peer review for a whole year.
+baseurl: "S0AndS0" # the subpath of your site, ie. your account name
+```
+
+
+Add a post under the `rounds/_r000` sub-directory describing what you have published each weak, following is a copy of the example post...
+
+
+**`rounds/_r000/language-repository-name.md`**
+
+
+{% raw %}
+```markdown
+---
+layout: post
+title: "<language> -- <repository-name>"
+date: 2020-06-15 13:52:36 -0700
+---
+
+
+Published new project, [<repository-name>][repository__source] that does stuff...
+
+
+{% highlight bash %}
+git clone git@github.com:<organization>/<repository>.git
+{% endhighlight %}
+
+
+... describe what this project does, and how to utilize it.
+
+
+Then describe any bits that:
+
+
+- you believe could be improved
+- you'd like help with
+- and/or questions that arose during development
+- etc...
+
+
+[repository__source]: https://github.com/<org>/<repository>
+```
+{% endraw %}
+
+
+Commit changes/additions, and push to GitHub...
+
+
+```bash
+cd ~/git/hub/52ForPeerReview/<account>
+
+git add .
+
+git commit -m 'Adds post about awesome new project'
+
+git push origin gh-pages
+```
+
+
+Share a link to your new post with the `#52ForPeerReview` Hash-Tag on Twitter, or other social media outlets, and invite others to offer suggestions on how to improve. eg...
+
+
+```tweet
+Published a new awesome new #coding project that does something...
+
+<link>
+
+... Pull Requests and/or new Issues are very welcomed!
+
+#52ForPeerReview
+```
+
+
+
+[repository__template]: https://github.com/organizations/52ForPeerReview/gh-pages-template/fork
