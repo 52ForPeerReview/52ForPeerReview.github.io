@@ -24,11 +24,23 @@ Then clone your fork, the URL syntax is _`git@github.com:52ForPeerReview/<accoun
 ```bash
 cd ~/git/hub/52ForPeerReview
 
-git clone git@github.com:52ForPeerReview/<account>.git
+git clone --recurse-submodules git@github.com:52ForPeerReview/<account>.git
 ```
 
 
-Edit the `_config.yml` file, specifically the `title`, `baseurl`, and `description` properties...
+Run the `after-fork.sh` script to automatically edit various references to _`gh-pages-template`_ to your account name, eg...
+
+
+```bash
+# cd ~/git/hub/52ForPeerReview/<acount>
+cd ~/git/hub/52ForPeerReview/S0AndS0
+
+# ./after-fork.sh '<acount>'
+./after-fork.sh 'S0AndS0'
+```
+
+
+The `after-fork.sh` script will edit the `_config.yml` file, specifically the `baseurl` property...
 
 
 **`_config.yml` (snip)**
@@ -42,7 +54,27 @@ baseurl: "S0AndS0" # the subpath of your site, ie. your account name
 ```
 
 
-Add a post under the `rounds/_r000` sub-directory describing what you have published each weak, following is a copy of the example post...
+Run the `re-init-submodules.sh` script...
+
+
+```bash
+./re-init-submodules.sh
+```
+
+
+... this will parse the `.gitmodules` file and re-initialize Git Submodules that where broken by GitHub's handling of Submodules within Template the repository.
+
+
+Add a post under the `rounds/_r000` sub-directory describing what you have published each weak...
+
+
+```bash
+# ./add-post.sh '<title>' '<description>'
+./add-post.sh '<title>' '<description>'
+```
+
+
+...following is a copy of the example post...
 
 
 **`rounds/_r000/language-repository-name.md`**
