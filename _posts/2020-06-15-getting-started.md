@@ -28,6 +28,9 @@ git clone --recurse-submodules git@github.com:52ForPeerReview/<account>.git
 ```
 
 
+------
+
+
 Run the `after-fork.sh` script to automatically edit various references to _`gh-pages-template`_ to your account name, eg...
 
 
@@ -54,6 +57,9 @@ baseurl: "S0AndS0" # the subpath of your site, ie. your account name
 ```
 
 
+------
+
+
 Run the `re-init-submodules.sh` script...
 
 
@@ -63,6 +69,9 @@ Run the `re-init-submodules.sh` script...
 
 
 ... this will parse the `.gitmodules` file and re-initialize Git Submodules that where broken by GitHub's handling of Submodules within Template the repository.
+
+
+------
 
 
 Add a post under the `rounds/_r000` sub-directory describing what you have published each weak...
