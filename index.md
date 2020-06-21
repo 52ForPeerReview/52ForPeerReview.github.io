@@ -10,7 +10,7 @@ layout: home
 This Organization aims to aid members find contributors for their projects, and foster a community that supports sustainable development practices.
 
 
-The 52 For Peer Review challenge is simply to publish one project per weak for a whole year.
+The 52 For Peer Review challenge is simply to publish one project per week for a whole year.
 
 
 If you wish to join please review the Contributing guide lines within the [`.github` repository][repository__dot_github], and [Getting Started][post__getting_started] post. Then ask any [Members][organization__members] with _Owner_ permissions, [listed bellow][heading__contacts], for an invitation.

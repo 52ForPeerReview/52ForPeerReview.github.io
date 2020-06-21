@@ -52,7 +52,7 @@ The `after-fork.sh` script will edit the `_config.yml` file, specifically the `b
 ```yaml
 title: 52 For Peer Review
 description: >- # this means to ignore newlines until "baseurl:"
-  Challenge to publish one project per weak for peer review for a whole year.
+  Challenge to publish one project per week for peer review for a whole year.
 baseurl: "S0AndS0" # the subpath of your site, ie. your account name
 ```
 
@@ -74,7 +74,7 @@ Run the `re-init-submodules.sh` script...
 ------
 
 
-Add a post under the `rounds/_r000` sub-directory describing what you have published each weak...
+Add a post under the `rounds/_r000` sub-directory describing what you have published each week...
 
 
 ```bash

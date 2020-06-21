@@ -1,10 +1,10 @@
 # 52ForPeerReviewgithubio
 [heading__top]:
   #52forpeerreviewgithubio
-  "&#x2B06; Challenge to publish one project per weak for peer review for a whole year"
+  "&#x2B06; Challenge to publish one project per week for peer review for a whole year"
 
 
-Challenge to publish one project per weak for peer review for a whole year
+Challenge to publish one project per week for peer review for a whole year
 
 
 ## [![Byte size of 52ForPeerReviewgithubio][badge__master__52forpeerreview.github.io__source_code]][52forpeerreview.github.io__master__source_code] [![Open Issues][badge__issues__52forpeerreview.github.io]][issues__52forpeerreview.github.io] [![Open Pull Requests][badge__pull_requests__52forpeerreview.github.io]][pull_requests__52forpeerreview.github.io] [![Latest commits][badge__commits__52forpeerreview.github.io__master]][commits__52forpeerreview.github.io__master] [![52ForPeerReview.github.io Demos][badge__gh_pages__52forpeerreview.github.io]][gh_pages__52forpeerreview.github.io]
@@ -163,7 +163,7 @@ ___
 
 
 ```
-Challenge to publish one project per weak for peer review for a whole year
+Challenge to publish one project per week for peer review for a whole year
 Copyright (C) 2020 S0AndS0
 
 This program is free software: you can redistribute it and/or modify
