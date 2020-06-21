@@ -143,11 +143,14 @@ git push origin gh-pages
 ```
 
 
+------
+
+
 Share a link to your new post with the `#52ForPeerReview` Hash-Tag on Twitter, or other social media outlets, and invite others to offer suggestions on how to improve. eg...
 
 
 ```tweet
-Published a new awesome new #coding project that does something...
+Published an awesome new #coding project that does something...
 
 <link>
 
