@@ -16,7 +16,7 @@
 title: 52 For Peer Review
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Challenge to publish one project per weak for peer review for a whole year.
+  Challenge to publish one project per week for peer review for a whole year.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: S0_And_S0
