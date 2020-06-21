@@ -79,7 +79,10 @@ Add a post under the `rounds/_r000` sub-directory describing what you have publi
 
 ```bash
 # ./add-post.sh '<title>' '<description>'
-./add-post.sh '<title>' '<description>'
+
+./new-post.sh\
+  'JavaScript convert decimal'\
+  'Converts decimal to another base, eg. hex, octal, or binary'
 ```
 
 
