@@ -89,7 +89,7 @@ Add a post under the `rounds/_r000` sub-directory describing what you have publi
 ...following is a copy of the example post...
 
 
-**`rounds/_r000/language-repository-name.md`**
+**`rounds/_r000/000_javascript-convert-decimal.md`**
 
 
 {% raw %}
