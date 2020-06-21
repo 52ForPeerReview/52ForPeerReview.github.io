@@ -96,8 +96,11 @@ Add a post under the `rounds/_r000` sub-directory describing what you have publi
 ```markdown
 ---
 layout: post
-title: "<language> -- <repository-name>"
-date: 2020-06-15 13:52:36 -0700
+title: JavaScript convert decimal
+description: Converts decimal to another base, eg. hex, octal, or binary
+date: 2020-06-20 15:00:58 -0700
+# date_updated:  ## Optional, formatted like Sat Jun 20 15:00:58 PDT 2020 above
+time_to_live: 1800
 ---
 
 
